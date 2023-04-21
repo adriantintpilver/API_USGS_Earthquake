@@ -22,7 +22,7 @@ The route returns information about the nearest earthquake in the city and withi
 
 # call Example:
 ```bash
-URL: http://127.0.0.1:5000/search?city=Tokyo&start_date=2004-04-02&end_date=2018-01-31
+URL: http://localhost:5000/search?city=Tokyo&start_date=2004-04-02&end_date=2018-01-31
 ```
 
 ## Route /city

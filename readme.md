@@ -80,11 +80,13 @@ Add a unit_test.py file to the project, which tests the earthquake search functi
     url (str): The URL of the API endpoint to test.
     expected_result (str): The expected result of the API response.
 ```
-Returns:
+
+# Returns:
 ```bash
     str: The actual result of the API response.
 ```
-    Raises:
+
+# Raises:
 ```bash
     AssertionError: If the API response does not match the expected result or if the API returns a non-200 status code.
 ```

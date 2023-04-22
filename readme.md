@@ -20,7 +20,7 @@ end_date (optional): The end date to search for earthquakes (format YYYY-MM-DD).
 ```
 The route returns information about the nearest earthquake in the city and within the specified date range. If an earthquake is found, the response will include the magnitude, location, and date of the earthquake. If no earthquake is found, the response will indicate that no information was found for the city. The response is returned in JSON format.
 
-# call Example:
+### call Example:
 ```bash
 URL: http://localhost:5000/search?city=Tokyo&start_date=2004-04-02&end_date=2018-01-31
 ```
@@ -35,7 +35,7 @@ longitude: The longitude of the city.
 ```
 The route adds the city and its coordinates to the database. If the city is already in the database, the response will indicate that the city already exists. The response is returned in JSON format.
 
-# call Example:
+### call Example:
 ```bash
 URL: http://localhost:5000/city
 ```
@@ -58,7 +58,7 @@ get_earthquakes_insert_DB(city, start_date, end_date, latitude, longitude): Sear
 ## Setting up a project with Docker
 This guide will show you how to set up the project with Docker. We'll be using Docker Compose to orchestrate two containers (Python app and Mysql db).
 
-# Prerequisites
+### Prerequisites
 Make sure you have the following software installed:
 ```bash
 Docker

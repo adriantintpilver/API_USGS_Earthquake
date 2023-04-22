@@ -75,16 +75,19 @@ you can now point to http://localhost:5000/ to use the different services of the
 Add a unit_test.py file to the project, which tests the earthquake search function, passing a call to the endpoint and the response that the API should receive.
 
 # Parameters:
-        ```bash
-        url (str): The URL of the API endpoint to test.
-        expected_result (str): The expected result of the API response.
 
-        Returns:
-        str: The actual result of the API response.
-
-        Raises:
-        AssertionError: If the API response does not match the expected result or if the API returns a non-200 status code.
-        ```
+```bash
+    url (str): The URL of the API endpoint to test.
+    expected_result (str): The expected result of the API response.
+```
+Returns:
+```bash
+    str: The actual result of the API response.
+```
+    Raises:
+```bash
+    AssertionError: If the API response does not match the expected result or if the API returns a non-200 status code.
+```
 
 You can iterate the call to this API over a list of calls and responses and thus automatically test the functionality of the api.
 
